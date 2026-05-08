@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Search, User, Globe, Menu, X, Sun, Moon } from 'lucide-react';
+import { useState } from 'react';
+import { User, Globe, Menu, X, Sun, Moon } from 'lucide-react';
 
 const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -80,7 +80,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               <span className={`transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-slate-950'}`}>SHIV</span>&nbsp;
               <span className="bg-gradient-to-r from-amber-600 via-amber-500 to-amber-700 bg-clip-text text-transparent">SHAKTI</span>
             </span>
-            <span className="text-xs font-black tracking-[0.2em] text-red-600 uppercase mt-0.5 select-none">
+            <span className="text-xs font-black tracking-wide-02 text-red-600 uppercase mt-0.5 select-none">
               Engineering Works
             </span>
           </div>

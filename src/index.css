@@ -127,11 +127,11 @@ button { cursor: pointer; border: none; outline: none; background: none; font-fa
 .border-red-600\/20 { border: 1px solid rgba(220, 38, 38, 0.2); }
 .rounded-xl { border-radius: 0.75rem; }
 .rounded-2xl { border-radius: 1rem; }
-.rounded-\[20px\] { border-radius: 20px; }
-.rounded-\[24px\] { border-radius: 24px; }
-.rounded-\[32px\] { border-radius: 32px; }
-.rounded-\[40px\] { border-radius: 40px; }
-.rounded-\[48px\] { border-radius: 48px; }
+.rounded-20px { border-radius: 20px; }
+.rounded-24px { border-radius: 24px; }
+.rounded-32px { border-radius: 32px; }
+.rounded-40px { border-radius: 40px; }
+.rounded-48px { border-radius: 48px; }
 .rounded-full { border-radius: 9999px; }
 .shadow-sm { box-shadow: var(--shadow-sm); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
@@ -151,7 +151,7 @@ button { cursor: pointer; border: none; outline: none; background: none; font-fa
 .tracking-tight { letter-spacing: -0.025em; }
 .tracking-tighter { letter-spacing: -0.05em; }
 .tracking-widest { letter-spacing: 0.1em; }
-.tracking-\[0.2em\] { letter-spacing: 0.2em; }
+.tracking-wide-02 { letter-spacing: 0.2em; }
 .leading-none { line-height: 1; }
 .leading-relaxed { line-height: 1.625; }
 .text-center { text-align: center; }

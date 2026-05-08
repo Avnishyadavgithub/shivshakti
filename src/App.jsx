@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import { ArrowRight, ChevronLeft, ChevronRight, Settings, ShieldCheck, Cpu, Phone, Mail, MapPin, Award } from 'lucide-react';
 import './App.css';
@@ -103,7 +103,7 @@ function App() {
       setActiveSlide((prev) => (prev + 1) % products.length);
     }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [products.length]);
 
   const handleNextSlide = () => {
     setActiveSlide((prev) => (prev + 1) % products.length);

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <g fill="#f59e0b">
+    {/* Center Tine (Pointed Blade) */}
+    <path d="M50,4 L54,28 L51,30 L51,44 L49,44 L49,30 L46,28 Z" />
+    
+    {/* Left Curved Tine */}
+    <path d="M49,36 C41,35 32.5,30 36,15 C37,11 41,11 41,13 C41,15 38.5,17 38.5,21 C38.5,28 45.5,32 49,32 Z" />
+    
+    {/* Right Curved Tine */}
+    <path d="M51,36 C59,35 67.5,30 64,15 C63,11 59,11 59,13 C59,15 61.5,17 61.5,21 C61.5,28 54.5,32 51,32 Z" />
+
+    {/* Connecting Base */}
+    <path d="M45,42 L55,42 L53.5,45 L46.5,45 Z" />
+
+    {/* Tripundra (Forehead Marks) */}
+    {/* Top bar */}
+    <rect x="23" y="52" width="54" height="4.5" rx="2.25" />
+    {/* Middle bar */}
+    <rect x="17" y="60" width="66" height="4.5" rx="2.25" />
+    {/* Bottom bar */}
+    <rect x="23" y="68" width="54" height="4.5" rx="2.25" />
+
+    {/* Central Eye / Oval */}
+    <ellipse cx="50" cy="62.25" rx="6.5" ry="11" fill="none" stroke="#f59e0b" strokeWidth="3.5" />
+    {/* Red Tilak Bindu */}
+    <circle cx="50" cy="62.25" r="4" fill="#dc2626" />
+  </g>
+</svg>
